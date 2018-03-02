@@ -1,0 +1,87 @@
+
+
+
+body {
+	margin: 0;
+}
+
+header {
+	background-color: #F3A723;
+    height: 64px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header > img {
+	display:inline-block;
+	height: 32px;
+}
+
+#title {
+	display:inline-block;
+	margin-left: 16px;
+	font-size: 24px;
+    color: #A66A05;
+}
+
+#shoppingCart {
+	padding:64px;
+}
+
+.cartItem {
+	border-top: 1px solid grey;
+	padding: 8px 0px;
+	display: flex;
+	align-items: stretch;;
+}
+
+.cartItemImg {
+	display:flex;
+	/*flex-grow: 1;*/
+}
+
+.cartItemBody {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	flex-grow: 1;
+	margin: 0 15px;
+}
+
+.cartItemDescription {
+	display:none;
+	font-size: 12px;
+	color: grey;
+}
+
+.cartItemPrice {
+	display: flex;
+    align-items: center;
+	/*flex-grow: 1;*/
+	margin: 0 15px;
+}
+
+#subtotal {
+	border-top: 1px solid grey;
+	display: flex;
+	align-items:stretch;
+	padding: 24px 0;
+
+}
+
+#subtotalLabel {
+	display: flex;
+	margin: 0 80px;
+	flex-grow: 1;
+}
+
+#subtotalValue {
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 15px;
+
+}
+
+
+
